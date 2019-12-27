@@ -10,4 +10,4 @@ def pdf_combiner(pdf_list):
 		merger.append(pdf)
 	merger.write('combined.pdf')
 	
-pdf_combiner(inputs)
+pdf_combiner(inputs) # Here I use function 
